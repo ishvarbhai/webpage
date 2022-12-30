@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top header */
+
+.top-header{
+    background-image: url(./img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position:relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    margin: 50px;
+    color: white;
+}
+.navbar .nav ul{
+    display:flex;
+    list-style: none;
+    margin: 50px;
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+.navbar .nav ul li a:hover{
+    color: red;
+}
+.navbar .search {
+   margin: 50px;
+   color: white;
+}
+.navbar .search i{
+    padding: 10px;
+}
+.top-header .banner{
+ position: absolute;
+ top: 300px;
+ left: 400px;
+ color: white;
+ text-align: center;
+ margin: 50px;
+}
+.top-header .banner h2{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.top-header .banner button{
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    transition: 1s all ease;
+}
+.top-header .banner button:hover{
+    background-color: rgb(131, 3, 3);
+}
+
+/* answer */
+
+.answer{
+    display: flex;
+    margin: 50px;
+}
+.answer .details h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.answer .details h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.answer .details p{
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.answer .details button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+}
+.answer .image img{
+    border:none;
+    border-radius :5px;
+    height: auto;
+    width: 100%;
+    padding-left: 20px;
+}
+
+/* services */
+
+.service{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+/* quality */
+
+.service .Quality{
+    width: 25%;
+    margin: 10px;
+}
+.service .Quality .box1{
+    background-color:whitesmoke;
+    color: red;
+    line-height: 75px;
+    height: 70px;
+    width: 70px;
+    margin: auto; 
+    transition: 1s all linear; 
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.service .Quality .box1:hover{
+   background-color: red;
+   color: white;
+   transform: rotate(45deg);
+}
+.service .Quality h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service .Quality h2:hover{
+    color: red;
+}
+
+/* Spacious */
+
+.service .Spacious{
+    width: 25%;
+    margin: 10px;
+}
+.service .Spacious .box2{
+    background-color:whitesmoke;
+    color: red;
+    line-height: 75px;
+    height: 70px;
+    width: 70px;
+    margin: auto; 
+    transition: 1s all linear; 
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.service .Spacious .box2:hover{
+   background-color: red;
+   color: white;
+   transform: rotate(45deg);
+}
+.service .Spacious h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service .Spacious h2:hover{
+    color: red;
+}
+
+/* Fitness */
+
+.service .Fitness{
+    width: 25%;
+    margin: 10px;
+}
+.service .Fitness .box3{
+    background-color:whitesmoke;
+    color: red;
+    line-height: 75px;
+    height: 70px;
+    width: 70px;
+    margin: auto; 
+    transition: 1s all linear; 
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.service .Fitness .box3:hover{
+   background-color: red;
+   color: white;
+   transform: rotate(45deg);
+}
+.service .Fitness h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service .Fitness h2:hover{
+    color: red;
+}
+
+/* Group */
+
+.service .Group{
+    width: 25%;
+    margin: 10px;
+}
+.service .Group .box4{
+    background-color:whitesmoke;
+    color: red;
+    line-height: 75px;
+    height: 70px;
+    width: 70px;
+    margin: auto; 
+    transition: 1s all linear; 
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.service .Group .box4:hover{
+   background-color: red;
+   color: white;
+   transform: rotate(45deg);
+}
+.service .Group h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service .Group h2:hover{
+    color: red;
+}
+
+/* join */
+
+.join {
+    display: flex;
+    margin: 50px;
+}
+.join .workout {
+    padding: 50px;
+}
+.join .workout h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.join .workout p{
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.join .workout .ragistration{
+    padding-bottom:10px
+}
+.join .workout .ragistration input{
+    height: 40px;
+    width: 300px;
+}
+.join .workout  button{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+}
+.join .workout h3{
+    padding-top: 10px;
+}
+
+/* footer */
+.footer{
+    background-color: #2e2e2e;
+}
+
+.footer .info{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: white;
+}
+.footer .info .add{
+    margin: auto;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+.footer .info .add h3{
+    padding-bottom: 10px;
+}
+.footer .info .add p{
+    padding-bottom: 10px;
+}
+.footer .info .touch{
+    margin: auto;
+    padding: 20px;
+    border-right: 2px solid black;
+    justify-content: center;
+}
+.footer .info .touch h3,h5{
+    padding-bottom: 10px;
+}
+.footer .info .touch p{
+    padding-bottom: 10px;
+}
+.footer .info .opening{
+    margin: auto;
+    padding: 20px;
+}
+.footer .info .opening h3{
+    padding-bottom: 10px;
+}
+.footer .info .opening p{
+    padding-bottom: 10px;
+}
+
